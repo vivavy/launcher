@@ -1,0 +1,9 @@
+{
+    "name": "Launcher",
+    "desc": "ViIS Packages launcher",
+    "priority": 999,
+    "status": "in progress",
+    "depencies": [
+        "python3"
+    ]
+}
