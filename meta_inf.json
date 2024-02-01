@@ -3,6 +3,7 @@
     "desc": "ViIS Packages launcher",
     "priority": 999,
     "status": "in progress",
+    "terminal": true,
     "depencies": [
         "python3"
     ]
