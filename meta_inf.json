@@ -3,7 +3,7 @@
     "desc": "ViIS Package Manager",
     "priority": 999,
     "status": "in progress",
-    "version": 111,
+    "version": 112,
     "terminal": true,
     "depencies": []
 }
