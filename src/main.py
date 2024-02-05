@@ -12,6 +12,7 @@ help_0 = """
 Введи "info package" чтобы узнать информацию о проекте
 Введи "exit" чтобы выйти
 Нажми CTRL+C чтобы выйти
+
 """
 
 repo = repo.Repo
@@ -19,6 +20,9 @@ repo = repo.Repo
 while True:
     try:
         cmd = list(input(help_0).split())
+
+        if not cmd:
+            continue
 
         if cmd[0] == "list":
             lst = repo.get_list()

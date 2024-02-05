@@ -1,1 +1,6 @@
-{"list": ["launcher", "hexos_emu"]}
+{
+    "list": [
+        "launcher",
+        "hexos_emu"
+    ]
+}
